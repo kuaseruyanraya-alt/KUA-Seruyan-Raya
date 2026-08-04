@@ -1,0 +1,6 @@
+{
+  "name": "KUA Seruyan Raya - Layanan Digital",
+  "description": "Portal Layanan Digital Kantor Urusan Agama (KUA) Kecamatan Seruyan Raya, Kabupaten Seruyan, Kalimantan Tengah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

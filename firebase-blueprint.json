@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "berita": {
+      "title": "Berita & Pengumuman KUA",
+      "description": "Kumpulan berita, kegiatan, dan pengumuman resmi KUA Seruyan Raya",
+      "type": "document",
+      "properties": {
+        "title": { "type": "string", "description": "Judul berita" },
+        "date": { "type": "string", "description": "Tanggal publikasi berita" },
+        "category": { "type": "string", "description": "Kategori berita" },
+        "image": { "type": "string", "description": "URL atau data gambar berita" },
+        "summary": { "type": "string", "description": "Ringkasan berita" },
+        "content": { "type": "string", "description": "Isi lengkap berita" },
+        "createdAt": { "type": "string", "description": "Timestamp ISO pembuatan" },
+        "updatedAt": { "type": "string", "description": "Timestamp ISO pembaruan" }
+      }
+    },
+    "app_config": {
+      "title": "Konfigurasi Portal KUA",
+      "description": "Pengaturan link formulir dan kontak KUA",
+      "type": "document",
+      "properties": {
+        "googleFormUrl": { "type": "string", "description": "URL Google Form pendaftaran" },
+        "simkahUrl": { "type": "string", "description": "URL SIMKAH Kemenag" },
+        "whatsappNumber": { "type": "string", "description": "Nomor WA KUA" },
+        "alamatKua": { "type": "string", "description": "Alamat KUA Seruyan Raya" }
+      }
+    }
+  }
+}
